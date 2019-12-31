@@ -1,5 +1,8 @@
 cmake_minimum_required(VERSION 3.4.1)
 
+#https://github.com/libusb/libusb/blob/master/examples/testlibusb.c
+
+
 set(CMAKE_CXX_STANDARD 14)
 
 SET(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -O3")
